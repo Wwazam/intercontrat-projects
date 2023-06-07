@@ -1,0 +1,8 @@
+#+TITLE: InterProjets
+* Motivation
+L'idee est de creer un site web pour referencer les differents projets des gens en intercontrat, dans quel etat ils sont, quelles technologies sont utilisee, pour donner de l'inspirations aux nouveaux venus et pouvoir faciliter la coordination.
+* Architecture
+L'architecture et les technos sont principalement dictees par les interets des participants initiaux
+- backend :: =python3=, surement avec =flask=
+- frontend :: =angular=, =typescript=
+- deploiement :: =docker=, =ansible= si on recupere un server a manager
