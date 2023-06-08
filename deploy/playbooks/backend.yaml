@@ -1,0 +1,12 @@
+---
+- hosts: all
+  tasks:
+    - name: install python 3
+      package:
+        name: python3
+        state: present
+
+    - name: install project
+      synchronize:
+        src: ../backend
+        dest: ~/backend
